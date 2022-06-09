@@ -107,5 +107,7 @@ public class RegLinear {
 
         if (erroMedio > 0.99)
             calculo();
+        else
+            new Frame(base, points1, points2);
     }
 }
